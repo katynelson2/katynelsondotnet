@@ -158,11 +158,11 @@ footer {
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
+/*.prev:hover,
 .next:hover {
     color: yellow;
 }
+*/
 
 /* Fading animation */
 .fade {
@@ -236,9 +236,6 @@ footer {
     margin: 0;
 }
 
-.black {
-    color: black;
-}
 
 @media only screen and (max-width: 1024px) {
     .location {
@@ -343,4 +340,16 @@ footer {
     .expanded .title, .expanded .year, .expanded .location {
         font-style: italic;
     }
+}
+
+
+@media only screen and (hover: hover) {
+    .prev:hover,
+    .next:hover {
+        color: yellow;
+    }
+}
+
+.black {
+    color: black;
 }

@@ -97,6 +97,10 @@ footer {
     font-style: italic;
 }
 
+.expanded .title:hover, .expanded .location:hover, .expanded .year:hover {
+    cursor: pointer;
+}
+
 .entry:not(.expanded):hover {
     /*    background-color: rgba(255, 0, 0, 0.4);*/
     cursor: pointer;
